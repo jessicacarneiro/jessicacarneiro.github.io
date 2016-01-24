@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Nasci em 1991 no estado de Minas Gerais. Faço Ciência da Computação na Universidade Federal de Minas Gerais. Atualmente, gosto de programar em C, seriados de ficção científica, jogos de estratégia e pipoca. Mas essa lista tende a mudar de tempos em tempos. Também gosto de ler e, raramente hoje em dia, de escrever. Alguns textos (poéticos) meus [aqui][tumblr].
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[tumblr]: http://jessicacarneir0.tumblr.com/
