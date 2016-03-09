@@ -10,6 +10,7 @@ $base-font-family: "PT Serif", "Times New Roman", serif;
 $base-font-size:   1.222em;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.65;
+$title-font-size: $base-font-size * 1.1;
 $base-line-height: 1.636em;
 
 $spacing-unit:     30px;
@@ -17,9 +18,10 @@ $spacing-unit:     30px;
 $text-color:         #555;
 $background-color:   #fff;
 $brand-color:        #000;
-$title-color:        #222;
+$title-color:        #999;
 $link-color:         #0088f3;
-$link-visited-color: #999;
+$deepskyblue:        #00BFFF;
+$deeppink:           #FF1493;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
