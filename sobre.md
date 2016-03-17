@@ -13,6 +13,7 @@ __Links:__
 
 * [Github][github]
 * [Goodreads][goodreads]
+* [Currículo Lattes][lattes]
 * [LinkedIn][linkedin]
 * [Twitter][twitter]
 
@@ -27,6 +28,7 @@ do tema original do Jekyll.
 [github]: http://github.com/jessicacarneiro
 [gitpages]: https://pages.github.com/
 [goodreads]: http://goodreads.com/jessicacarneiro
+[lattes]: http://lattes.cnpq.br/2183836981411896
 [linkedin]: https://linkedin.com/in/jessicacarneiro
 [twitter]: http://twitter.com/jessicacarneir0
 [jekyll]: https://jekyllrb.com/

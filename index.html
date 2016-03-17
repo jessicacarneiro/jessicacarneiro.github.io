@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 
 <div class="home">
@@ -9,9 +8,7 @@ title: Home
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2 class="post-title">{{ post.title }}</h2>
-
         {{ post.content | truncatewords:25 }}
         <br>
         <a href="{{ post.url | prepend: site.baseurl }}">Leia mais >></a>

@@ -1,0 +1,15 @@
+---
+layout: page
+title: Arquivo
+permalink: /arquivo/
+---
+
+ <h2>Todos os posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -
+        <a href="{{ post.url | prepend: site.baseurl }}"><strong>{{ post.title }}</strong></a>
+      </li>
+    {% endfor %}
+  </ul>
