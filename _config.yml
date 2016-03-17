@@ -8,11 +8,10 @@
 # Site settings
 title: Jéssica Carneiro
 email: jessicacarneiro@ufmg.br
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "site.github.url:"
   Um blog sobre tecnologia, programação, internet, línguas
   e tudo o mais que me vier à cabeça!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+site.github.url: "http://jessicacarneiro.github.io" # the base hostname & protocol for your site
 twitter_username: jessicacarneir0
 github_username:  jessicacarneiro
 
