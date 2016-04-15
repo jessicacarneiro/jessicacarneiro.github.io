@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Sobre
-permalink: /sobre/
+title: About
+permalink: /about/
 ---
 
 ## Jéssica ##
 
-Sou estudante de Ciência da Computação na [UFMG][ufmg]. Nasci em 1991 em Belo Horizonte.
-Gosto de: tecnologia, ciência, ficção científica, séries de tv, pipoca, sorvete.
+I'm an undergrad student at [UFMG][ufmg] majoring in Computer Science. I was born in 1991 in
+Belo Horizonte. I like science, technology, popcorn, ice cream, and summer.
 
 __Links:__
 
@@ -15,13 +15,13 @@ __Links:__
 * [Goodreads][goodreads]
 * [Currículo Lattes][lattes]
 * [LinkedIn][linkedin]
+* [Stack Overflow][stack]
 * [Twitter][twitter]
 
 ## Site ##
 
-Este site foi construído com [Jekyll][jekyll] e é hospedado pelo [Github Pages][gitpages].
-O tema é uma versão alterada por mim
-do tema original do Jekyll.
+Built with [Jekyll][jekyll] and hosted at [Github Pages][gitpages]. This theme is my modification
+of the default Jekyll theme.
 
 [ufmg]: http://www.ufmg.br/
 [tumblr]: http://jessicacarneir0.tumblr.com/
@@ -30,5 +30,6 @@ do tema original do Jekyll.
 [goodreads]: http://goodreads.com/jessicacarneiro
 [lattes]: http://lattes.cnpq.br/2183836981411896
 [linkedin]: https://linkedin.com/in/jessicacarneiro
+[stack]: http://stackoverflow.com/users/5363892
 [twitter]: http://twitter.com/jessicacarneir0
 [jekyll]: https://jekyllrb.com/
