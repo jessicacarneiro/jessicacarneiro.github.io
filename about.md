@@ -16,7 +16,10 @@ __Links:__
 * [Currículo Lattes][lattes]
 * [LinkedIn][linkedin]
 * [Stack Overflow][stack]
+* [Tumblr][tumblr]
 * [Twitter][twitter]
+
+[![Project Euler](https://projecteuler.net/profile/jessicacarneiro.png)](https://projecteuler.net/profile/jessicacarneiro.png)
 
 ## Site ##
 
