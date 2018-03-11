@@ -7,12 +7,14 @@ permalink: /about/
 ## Jéssica ##
 
 I'm an undergrad student at [UFMG][ufmg] majoring in Computer Science. I was born in 1991 in
-Belo Horizonte. I like science, technology, popcorn, ice cream, and summer.
+Belo Horizonte. I like TV shows, books, science, technology, popcorn, and ice cream.
 
 __Links:__
 
+* [Academia][academia]
 * [Github][github]
 * [Goodreads][goodreads]
+* [Google Scholar][scholar]
 * [Currículo Lattes][lattes]
 * [LinkedIn][linkedin]
 * [Stack Overflow][stack]
@@ -36,3 +38,5 @@ of the default Jekyll theme.
 [stack]: http://stackoverflow.com/users/5363892
 [twitter]: http://twitter.com/jessicacarneir0
 [jekyll]: https://jekyllrb.com/
+[academia]: https://ufmg.academia.edu/J%C3%A9ssicaCarneiro
+[scholar]: https://scholar.google.com.br/citations?user=JjtW7EwAAAAJ&hl
