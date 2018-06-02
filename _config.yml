@@ -20,3 +20,5 @@ markdown: kramdown
 
 # plugins
 gems: []
+
+theme: jekyll-theme-dinky
