@@ -294,7 +294,7 @@ scholar:
   first_name: [Jéssica, J.]
 
   style: apa
-  locale: en
+  locale: pt-BR
 
   source: /_bibliography/
   bibliography: papers.bib
