@@ -36,7 +36,7 @@ jobs:
       - name: Build LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: resume/resume_EN.latex
+          root_file: resume/resume_EN.tex
           working_directory: resume/
           latexmk_shell_escape: true
       - name: Upload artifact
