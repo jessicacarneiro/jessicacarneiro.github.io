@@ -37,7 +37,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume/resume_EN.tex
-          working_directory: resume/
+          working_directory: .
           latexmk_shell_escape: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
