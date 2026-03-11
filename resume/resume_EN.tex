@@ -17,6 +17,8 @@
 \usepackage{multicol}
 \usepackage[T1]{fontenc}
 
+\input{glyphtounicode.tex}
+
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot{}
@@ -78,6 +80,7 @@
 \begin{center}
   {\Huge\bfseries\color{accent} J\'ESSICA CARNEIRO} \\[6pt]
   \small
+  \href{mailto:jessicaccarneiro91@gmail.com}{jessicaccarneiro91@gmail.com}
   \hspace{6pt}$|$\hspace{6pt}
   \href{https://www.linkedin.com/in/jessicacarneiro}{linkedin.com/in/jessicacarneiro}
   \hspace{6pt}$|$\hspace{6pt}
@@ -89,10 +92,10 @@
 %---------- PROFESSIONAL SUMMARY ----------
 \section{Professional Summary}
 \begin{itemize}[leftmargin=0.2in, itemsep=1pt, parsep=0pt]
-  \resumeItem{Backend engineer with 7+ years of experience building scalable, high-availability systems in Java and Kotlin, currently transitioning into DevOps/SRE.}
-  \resumeItem{Hands-on experience with cloud infrastructure (AWS), CI/CD pipelines, Infrastructure as Code (Terraform/Terragrunt), and container orchestration (Kubernetes, Docker).}
-  \resumeItem{Strong background in asynchronous messaging (Kafka, AWS SQS/SNS) and observability tooling (New Relic, Datadog).}
-  \resumeItem{Proven track record in improving system reliability, reducing operational failures, and automating processes across engineering teams.}
+  \resumeItem{Infrastructure engineer with a strong software background and 7+ years of experience building and operating scalable, high-availability distributed systems.}
+  \resumeItem{Hands-on experience owning cloud infrastructure on AWS, Infrastructure as Code with Terraform/Terragrunt, and container orchestration with Kubernetes and Docker.}
+  \resumeItem{Designed and standardized observability stacks (Datadog, New Relic), build and own CI/CD tooling, and drive automation to eliminate operational toil.}
+  \resumeItem{Track record of improving system reliability and empowering engineering teams through shared platform tooling, best practices, and operational excellence.}
 \end{itemize}
 
 %---------- TECHNICAL SKILLS ----------
@@ -100,10 +103,10 @@
 \begin{itemize}[leftmargin=0.05in, label={}, itemsep=2pt, parsep=0pt]
   \small\item\textbf{Languages:} Java, Kotlin, Python, Bash, TypeScript, JavaScript, C\#
   \small\item\textbf{Frameworks \& Tools:} Spring Boot, Quarkus, Ktor, Django, Fastify, FastAPI, Flask, NodeJS, GraphQL
-  \small\item\textbf{Cloud \& Infra:} AWS, Terraform, Terragrunt, Docker, Kubernetes, ArgoCD, GitOps
+  \small\item\textbf{Cloud \& Infra:} AWS (EKS, SQS/SNS, ALB/NLB, VPC, S3, AuroraDB), Terraform, Terragrunt, Docker, Kubernetes, ArgoCD, GitOps
   \small\item\textbf{CI/CD:} CircleCI, GitHub Actions, Azure DevOps, Jenkins, GoCD
-  \small\item\textbf{Messaging \& Observability:} Kafka, AWS SQS/SNS, Datadog, New Relic
-  \small\item\textbf{Databases:} PostgreSQL, MongoDB, MySQL, Redis
+  \small\item\textbf{Messaging \& Observability:} AWS SQS/SNS, Datadog, New Relic, Kafka
+  \small\item\textbf{Databases:} PostgreSQL, Redis, MySQL, MongoDB
 \end{itemize}
 
 %---------- PROFESSIONAL EXPERIENCE ----------
@@ -112,9 +115,9 @@
 
   \resumeSubheading{Navalia}{Jul 2025 -- Present}{DevOps Engineer --- Platform Team}{}
   \resumeItemListStart
-    \resumeItem{Design and maintain deployment pipelines ensuring consistent and reliable infrastructure provisioning.}
+    \resumeItem{Own and evolve the platform build and deploy tooling used by all engineering teams, ensuring consistent and reliable infrastructure provisioning.}
     \resumeItem{Author Bash scripts to automate repetitive tasks (e.g., config generation), reducing manual errors and engineering toil.}
-    \resumeItem{Apply GitOps principles to manage infrastructure and application state across Kubernetes clusters.}
+    \resumeItem{Apply GitOps principles to manage infrastructure and application state across EKS clusters, following and establishing AWS infrastructure best practices.}
   \resumeItemListEnd
   \begin{itemize}[leftmargin=0.2in, itemsep=1pt, parsep=0pt]
     \small\item\textbf{\color{lightgray}Key Achievements}
@@ -127,22 +130,23 @@
   \resumeSubheading{Shippo}{Oct 2024 -- Apr 2025}{Software Engineer --- Labels Team}{}
   \resumeItemListStart
     \resumeItem{Developed and maintained backend services in Python/Django for shipping label generation across multiple carriers.}
-    \resumeItem{Collaborated with the infrastructure team to create monitoring alerts via Terraform.}
-    \resumeItem{Built New Relic monitoring dashboards to ensure operational reliability.}
+    \resumeItem{Integrated new shipping carriers via REST APIs, expanding platform coverage.}
+    \resumeItem{Contributed to performance, resilience, and scalability improvements in label processing systems.}
+    \resumeItem{Authored Terraform modules to provision and manage cloud monitoring alerts, enabling self-service observability for engineering teams.}
+    \resumeItem{Designed and built New Relic dashboards to standardize the observability story for distributed label processing services, improving incident response time.}
   \resumeItemListEnd
 
   \resumeSubheading{Navalia}{Jan 2023 -- Oct 2024}{Senior Consultant Software Engineer}{}
   \resumeItemListStart
-    \resumeItem{Led backend development on large-scale microservices projects using Java and Kotlin.}
+    \resumeItem{Led backend development on large-scale microservices projects using Kotlin and Typescript.}
     \resumeItem{Implemented CI/CD pipelines with CircleCI; automated infrastructure with Terraform and Terragrunt.}
-    \resumeItem{Contributed to a platform migration, working with infrastructure teams on deployment strategy and scalability.}
-    \resumeItem{Drove asynchronous messaging solutions via SQS/SNS and application monitoring with Datadog.}
-    \resumeItem{Championed DevOps best practices adoption within development squads.}
+    \resumeItem{Drove asynchronous messaging at scale via SQS/SNS across distributed microservices; standardized application monitoring with Datadog..}
+    \resumeItem{Championed DevOps best practices adoption within the team.}
   \resumeItemListEnd
 
   \resumeSubheading{Hotmart}{Nov 2021 -- Jan 2023}{Back-end Developer}{}
   \resumeItemListStart
-    \resumeItem{Built REST APIs with Java, Kotlin, and Spring Boot, focusing on high availability and scalability.}
+    \resumeItem{Built REST APIs with Java and Spring Boot, focusing on high availability and scalability.}
     \resumeItem{Worked within agile squads (Scrum/Kanban) with strong emphasis on test automation and continuous improvement.}
   \resumeItemListEnd
 
@@ -163,13 +167,13 @@
   \resumeItemListStart
     \resumeItem{Developed chatbot solutions on the Blip platform using C\# and .NET, delivering conversational experiences for clients.}
     \resumeItem{Collaborated with product and design teams via Azure DevOps, contributing to continuous delivery of chatbot features.}
-    \resumeItem{Built integrations using JavaScript to connect chatbot flows with APIs.}
+    \resumeItem{Built front-end integrations using JavaScript to connect chatbot flows with web-based interfaces.}
   \resumeItemListEnd
 
   \resumeSubheading{UFMG --- Computer Science Department}{May 2017 -- May 2018}{Undergraduate Research Intern}{}
   \resumeItemListStart
     \resumeItem{Conducted research on security protocols for IoT, focusing on federated identity management and post-quantum cryptography.}
-    \resumeItem{Co-designed and implemented FLAT (Federated Lightweight Authentication of Things), a novel authentication protocol for resource-constrained IoT devices}
+    \resumeItem{Co-designed and implemented FLAT (Federated Lightweight Authentication of Things), a novel authentication protocol for resource-constrained IoT devices, achieving a 31\% reduction in data exchange overhead vs.\ baseline solutions.}
     \resumeItem{Prototyped and validated FLAT on Arduino hardware, demonstrating feasibility on devices with minimal computational resources.}
     \resumeItem{Co-authored two peer-reviewed publications: a conference paper (SBSeg 2019) and a journal article (\textit{Ad Hoc Networks}, Elsevier, 2020).}
   \resumeItemListEnd
@@ -191,5 +195,12 @@
     \small\color{lightgray}Exchange Program --- SUNY Old Westbury, New York, USA (Science without Borders) & \small\color{lightgray}2015--2016 \\
   \end{tabular*}
 \resumeSubHeadingListEnd
+
+%---------- PUBLICATIONS ----------
+\section{Publications}
+\begin{itemize}[leftmargin=0.05in, label={}, itemsep=4pt, parsep=0pt]
+  \small\item Santos, M.L.B.A., \textbf{Carneiro, J.C.}, et al. ``FLAT: Federated Lightweight Authentication for the Internet of Things.'' \textit{Ad Hoc Networks}, Elsevier, 2020.
+  \small\item Santos, M.L.B.A., \textbf{Carneiro, J.C.}, et al. ``A Federated Lightweight Authentication Protocol for the Internet of Things.'' \textit{Brazilian Symposium on Information and Computational Systems Security (SBSeg)}, 2019.
+\end{itemize}
 
 \end{document}
